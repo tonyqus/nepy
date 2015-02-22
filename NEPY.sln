@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nepy.Parsers", "NEPY.Parsers\Nepy.Parsers.csproj", "{8E4A13FF-FF4B-4752-BAAC-086EDE7D56BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{30E73264-FFFF-456D-A7F7-3597A62DD62D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nepy.Core", "NEPY.Core\Nepy.Core.csproj", "{C654C67A-4DD3-4C97-9A4E-F9DFE7D43C87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E4A13FF-FF4B-4752-BAAC-086EDE7D56BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4A13FF-FF4B-4752-BAAC-086EDE7D56BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4A13FF-FF4B-4752-BAAC-086EDE7D56BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4A13FF-FF4B-4752-BAAC-086EDE7D56BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E73264-FFFF-456D-A7F7-3597A62DD62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E73264-FFFF-456D-A7F7-3597A62DD62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E73264-FFFF-456D-A7F7-3597A62DD62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E73264-FFFF-456D-A7F7-3597A62DD62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C654C67A-4DD3-4C97-9A4E-F9DFE7D43C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C654C67A-4DD3-4C97-9A4E-F9DFE7D43C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C654C67A-4DD3-4C97-9A4E-F9DFE7D43C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C654C67A-4DD3-4C97-9A4E-F9DFE7D43C87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
