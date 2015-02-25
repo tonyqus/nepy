@@ -36,6 +36,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="USAddressParser.cs" />
+    <Compile Include="Entities\Address.cs" />
     <Compile Include="Entities\PhoneNo.cs" />
     <Compile Include="SimChineseDateTimeParser.cs" />
     <Compile Include="PhoneNoParser.cs" />
