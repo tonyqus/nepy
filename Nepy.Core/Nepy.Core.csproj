@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -49,9 +50,19 @@
     <Compile Include="ParserResultCollection.cs" />
     <Compile Include="POSType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Dictionary\DataProviderSettings.cs" />
+    <Compile Include="Dictionary\DataProviderType.cs" />
+    <Compile Include="Dictionary\IDataNode.cs" />
+    <Compile Include="Dictionary\IDataProvider.cs" />
+    <Compile Include="Dictionary\IDataProviderSetting.cs" />
+    <Compile Include="TrieTree\TrieFactory.cs" />
+    <Compile Include="TrieTree\TrieTree.cs" />
+    <Compile Include="TrieTree\TrieTreeNode.cs" />
+    <Compile Include="TrieTree\TrieTreeResult.cs" />
     <Compile Include="UnicodeBlock.cs" />
     <Compile Include="Utility.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
