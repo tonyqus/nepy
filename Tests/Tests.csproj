@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnglishDateTimeParserInternalTests.cs" />
+    <Compile Include="DayExtensionsTests.cs" />
+    <Compile Include="TimeExtensionsTests.cs" />
     <Compile Include="USAddressParserTest.cs" />
     <Compile Include="DateUtilTest.cs" />
     <Compile Include="DictLoadTest.cs" />

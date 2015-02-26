@@ -39,7 +39,9 @@
   <ItemGroup>
     <Compile Include="CharacterUtil.cs" />
     <Compile Include="DateRange.cs" />
+    <Compile Include="DateTimeExtensions\DateUnit.cs" />
     <Compile Include="DateUtil.cs" />
+    <Compile Include="DateTimeExtensions\DayExtensions.cs" />
     <Compile Include="IParser.cs" />
     <Compile Include="NGram.cs" />
     <Compile Include="NumeralUtil.cs" />
@@ -55,6 +57,8 @@
     <Compile Include="Dictionary\IDataNode.cs" />
     <Compile Include="Dictionary\IDataProvider.cs" />
     <Compile Include="Dictionary\IDataProviderSetting.cs" />
+    <Compile Include="StringHelpers.cs" />
+    <Compile Include="DateTimeExtensions\TimeExtensions.cs" />
     <Compile Include="TrieTree\TrieFactory.cs" />
     <Compile Include="TrieTree\TrieTree.cs" />
     <Compile Include="TrieTree\TrieTreeNode.cs" />

@@ -8,7 +8,6 @@ namespace Nepy.Core
 {
     public partial class Utility
     {
-
         /// <summary>
         /// Detect BOM header
         /// </summary>
