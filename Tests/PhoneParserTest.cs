@@ -5,7 +5,6 @@ using System.Linq;
 using NUnit.Framework;
 using Nepy.Parsers;
 using Nepy.Core;
-using Nepy.Core;
 
 namespace Nepy.Tests
 {
