@@ -44,7 +44,8 @@ namespace Nepy.Dictionary.Providers
 
         public List<IDataNode> Load()
         {
-            var server = MongoServer.Create(setting.Uri);
+            var client=new MongoClient(setting.Uri);
+            var server=client.GetServer();
             try
             {
                 server.Connect();

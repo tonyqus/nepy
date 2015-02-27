@@ -4,7 +4,7 @@ using Nepy.Dictionary;
 using Nepy.Dictionary.Providers;
 using NUnit.Framework;
 
-namespace DictionaryService.UnitTest
+namespace Nepy.Tests
 {
     [TestFixture]
     public class TrieTreeTest
@@ -63,7 +63,7 @@ namespace DictionaryService.UnitTest
         public void TestLoadTrieTreeFromPanguDict()
         {
             var mockPanguProviderSetting = new Mock<IDataProviderSetting>();
-            mockPanguProviderSetting.Setup(s => s.Uri).Returns(DictLoadTest.UnitTestProjectFolder + @"\Data\panguDict.dct");
+            mockPanguProviderSetting.Setup(s => s.Uri).Returns(DictionaryLoadTest.UnitTestProjectFolder + @"\Data\panguDict.dct");
             mockPanguProviderSetting.Setup(s => s.ProviderType).Returns("PanguDictProvider");
 
             var panguProvider = new PanguDictProvider(mockPanguProviderSetting.Object);

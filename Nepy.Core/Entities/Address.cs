@@ -1,4 +1,4 @@
-﻿namespace Nepy.Parsers
+﻿namespace Nepy.Core
 {
     using System;
     using System.Collections.Generic;

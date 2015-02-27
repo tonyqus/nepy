@@ -37,9 +37,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EnglishDateTimeParser.cs" />
+    <Compile Include="SimChineseVerbParser.cs" />
     <Compile Include="USAddressParser.cs" />
-    <Compile Include="Entities\Address.cs" />
-    <Compile Include="Entities\PhoneNo.cs" />
     <Compile Include="SimChineseDateTimeParser.cs" />
     <Compile Include="PhoneNoParser.cs" />
     <Compile Include="PostalCodeParser.cs" />

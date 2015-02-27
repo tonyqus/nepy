@@ -38,10 +38,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CharacterUtil.cs" />
-    <Compile Include="DateRange.cs" />
+    <Compile Include="Entities\DateRange.cs" />
     <Compile Include="DateTimeExtensions\DateUnit.cs" />
     <Compile Include="DateUtil.cs" />
     <Compile Include="DateTimeExtensions\DayExtensions.cs" />
+    <Compile Include="Entities\Address.cs" />
+    <Compile Include="Entities\PhoneNo.cs" />
     <Compile Include="IParser.cs" />
     <Compile Include="NGram.cs" />
     <Compile Include="NumeralUtil.cs" />

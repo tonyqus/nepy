@@ -1,4 +1,4 @@
-﻿namespace DateTimeParser
+﻿namespace Nepy.Tests
 {
     using System;
     using System.Diagnostics.CodeAnalysis;

@@ -7,10 +7,10 @@ using NUnit.Framework;
 using Nepy.Dictionary;
 using Nepy.Dictionary.Providers;
 
-namespace DictionaryService.UnitTest
+namespace Nepy.Tests
 {
     [TestFixture]
-    public class DictLoadTest
+    public class DictionaryLoadTest
     {
         internal const string UnitTestProjectFolder = @"..\..\..\Tests";
 
