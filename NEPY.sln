@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nepy.Core", "NEPY.Core\Nepy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nepy.Dictionary.Providers", "Nepy.Dictionary.Providers\Nepy.Dictionary.Providers.csproj", "{B2760CAE-5851-41F0-8DA5-044BAC96EA0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nepy.Studio", "Nepy.Studio\Nepy.Studio.csproj", "{274CADBE-02FB-4FC4-9702-FFD99354CB48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,16 @@ Global
 		{B2760CAE-5851-41F0-8DA5-044BAC96EA0E}.Release|Mixed Platforms.Build.0 = Release|x86
 		{B2760CAE-5851-41F0-8DA5-044BAC96EA0E}.Release|x86.ActiveCfg = Release|x86
 		{B2760CAE-5851-41F0-8DA5-044BAC96EA0E}.Release|x86.Build.0 = Release|x86
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{274CADBE-02FB-4FC4-9702-FFD99354CB48}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
