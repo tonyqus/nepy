@@ -64,6 +64,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -73,6 +74,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NEPY.Core\Nepy.Core.csproj">
+      <Project>{c654c67a-4dd3-4c97-9a4e-f9dfe7d43c87}</Project>
+      <Name>Nepy.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nepy.Dictionary.Providers\Nepy.Dictionary.Providers.csproj">
+      <Project>{b2760cae-5851-41f0-8da5-044bac96ea0e}</Project>
+      <Name>Nepy.Dictionary.Providers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NEPY.Parsers\Nepy.Parsers.csproj">
+      <Project>{8e4a13ff-ff4b-4752-baac-086ede7d56be}</Project>
+      <Name>Nepy.Parsers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nepy\Nepy.csproj">
+      <Project>{d18140b1-04ba-4f58-a292-7daa82928aac}</Project>
+      <Name>Nepy</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
