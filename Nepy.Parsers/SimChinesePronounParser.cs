@@ -12,7 +12,7 @@ namespace Nepy.Parsers
     /// <remarks>
     /// http://xh.5156edu.com/page/z2190m2907j18579.html
     /// </remarks>
-    [ParserOrder(3)]
+    [ParserDefaultOrder(3)]
     public class SimChinesePronounParser:IParser
     {
         ParserContext context;

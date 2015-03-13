@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Nepy.Parsers
 {
-    [ParserOrder(5)]
+    [ParserDefaultOrder(5)]
     public class SimChineseQuantityParser:IParser
     {
         char[] chnQuantity ={

@@ -9,6 +9,7 @@
     using DateTimeExtensions;
     using Nepy.Core;
 
+    [ParserDefaultOrder(40)]
     public class EnglishDateTimeParser:IParser
     {
         #region  Fields

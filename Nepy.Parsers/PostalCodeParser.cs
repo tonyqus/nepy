@@ -9,7 +9,7 @@ namespace Nepy.Parsers
     /// <summary>
     /// Postal code parser for different countries
     /// </summary>
-    [ParserOrder(36)]
+    [ParserDefaultOrder(36)]
     public class PostalCodeParser:IParser
     {
         

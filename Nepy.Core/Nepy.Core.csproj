@@ -48,7 +48,7 @@
     <Compile Include="NGram.cs" />
     <Compile Include="NumeralUtil.cs" />
     <Compile Include="Attributes\ParserIgnoreAttribute.cs" />
-    <Compile Include="Attributes\ParserOrderAttribute.cs" />
+    <Compile Include="Attributes\ParserDefaultOrderAttribute.cs" />
     <Compile Include="ParserContext.cs" />
     <Compile Include="ParserPattern.cs" />
     <Compile Include="ParserResultCollection.cs" />

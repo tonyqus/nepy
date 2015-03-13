@@ -32,7 +32,7 @@ namespace Nepy.Parsers
     ///<remarks>
     ///http://usaddress.codeplex.com/
     ///</remarks>
-    [ParserOrder(31)]
+    [ParserDefaultOrder(31)]
     public class USAddressParser : IParser
     {
         ParserContext context;

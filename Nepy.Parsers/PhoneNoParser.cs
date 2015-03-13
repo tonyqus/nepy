@@ -9,7 +9,7 @@ namespace Nepy.Parsers
     /// <summary>
     /// Phone Number Parser for different countries
     /// </summary>
-    [ParserOrder(30)]
+    [ParserDefaultOrder(30)]
     public class PhoneNoParser : IParser
     {
 

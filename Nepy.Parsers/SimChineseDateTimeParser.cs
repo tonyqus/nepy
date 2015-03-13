@@ -10,7 +10,7 @@ namespace Nepy.Parsers
     /// <summary>
     /// DateTime parser for simplified chinese text
     /// </summary>
-    [ParserOrder(35)]
+    [ParserDefaultOrder(35)]
     public class SimChineseDateTimeParser:IParser
     {
         ParserContext context;
