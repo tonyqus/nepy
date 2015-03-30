@@ -65,10 +65,11 @@ namespace Nepy
                     {
                         Console.WriteLine(ex);
                     }
-                }
-                if (!isFound)
-                {
-                    i++;
+
+                    if (!isFound)
+                    {
+                        i++;
+                    }
                 }
             }
             return result;
